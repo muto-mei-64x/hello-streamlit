@@ -5,7 +5,7 @@ import streamlit as st
 import os
 
 title = os.getenv('ENVIRONMENT')
-st.write(f"# This environment is {title}")
+st.write(f"# この環境は {title}")
 
 """
 # Welcome to Streamlit!
