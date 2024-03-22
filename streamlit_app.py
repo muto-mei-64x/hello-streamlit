@@ -6,6 +6,7 @@ import os
 
 title = os.getenv('ENVIRONMENT')
 st.write(f"# この環境は {title}")
+st.write(f"## これは新規開発機能")
 
 """
 # Welcome to Streamlit!
